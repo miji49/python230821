@@ -18,7 +18,7 @@ print(union("HAM","EGG","SPAM"))
 
 
 #람다함수(이름이 없는 간단한 함수정의)
-g = lambda x,y:x*x 
+g = lambda x,y:x*y 
 print(g(3,4))
 print(g(5,6))
 print((lambda x:x*x)(3))
@@ -31,7 +31,7 @@ for item in iterL:
     print(item)
 
 print("---람다함수정의---")
-iterL = filter(lambda x,x>20, lst)
+iterL = filter(lambda x:x>20, lst)
 for item in iterL:
     print(item)
 
